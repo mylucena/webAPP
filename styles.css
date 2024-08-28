@@ -1,0 +1,64 @@
+/* Estilos básicos */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e880c2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+}
+
+#app {
+    width: 90%;
+    max-width: 400px;
+    background-color: #f6d3ec;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #f804a3;
+    color: #eeeeee;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #9b4184;
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 600px) {
+    #app {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
